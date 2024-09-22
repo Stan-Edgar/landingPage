@@ -1,4 +1,35 @@
 body {
     background-color: black;
-    
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px; 
+    margin-top: 20px;
+
+}
+
+#logo {
+    width: 225px;
+}
+
+.Links {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    font-family: jetBrains Mono;
+    font-size: 13px;
+}
+
+.btn {
+
+    background-image: linear-gradient(to top right, #FF4CED , #9B6DFF, #5C11FF);
+padding: 8px;
+border-radius: 5px;
+
 }
